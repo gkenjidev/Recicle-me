@@ -38,3 +38,24 @@
     padding-bottom: 16px;
     border-left: 1px solid white;
 }
+
+.main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-glass {
+    margin-top: 50px;
+    box-sizing: border-box;
+    width: 500px;
+    height: 700px;
+    background: rgba(255, 255, 255, 0.2);
+    border: 2px solid rgba(255, 255, 255, 0.25);
+    backdrop-filter: blur(5px);
+    border-radius: 20px;
+
+
+    display: flex;
+    justify-content: center;
+}

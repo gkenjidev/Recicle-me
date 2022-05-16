@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;600;700&family=Roboto:wght@300&display=swap");
 * {
   text-decoration: none;
   -webkit-box-sizing: border-box;
@@ -75,7 +75,7 @@ header {
   padding: 329px 0px;
 }
 
-.container h1 {
+.titulo {
   font-family: 'Montserrat';
   font-style: normal;
   font-weight: 600;
@@ -95,5 +95,71 @@ header {
   font-size: 48px;
   line-height: 59px;
   color: white;
+}
+
+.separador {
+  background: linear-gradient(91.58deg, rgba(54, 176, 14, 0.6) 0%, rgba(22, 163, 74, 0.6) 48.11%, rgba(14, 176, 165, 0.6) 81.03%);
+  border: 3px solid rgba(255, 255, 255, 0.14);
+  -webkit-backdrop-filter: blur(23px);
+          backdrop-filter: blur(23px);
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.topico1 {
+  padding-top: 86px;
+  padding-bottom: 46px;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 59px;
+  color: white;
+}
+
+main {
+  background: rgba(54, 176, 14, 0.15);
+}
+
+.imagem-topico1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  max-width: 600px;
+}
+
+.d-hero {
+  padding-top: 150px;
+  padding-bottom: 150px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 30px;
+}
+
+.para-topico1 {
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 28px;
+  text-align: justify;
+}
+
+.separador2 {
+  background: linear-gradient(94.21deg, rgba(31, 240, 108, 0.6) 20.32%, rgba(14, 176, 165, 0.6) 66.35%, rgba(15, 186, 29, 0.6) 102.66%);
+  border: 3px solid rgba(255, 255, 255, 0.15);
+  -webkit-backdrop-filter: blur(25px);
+          backdrop-filter: blur(25px);
 }
 /*# sourceMappingURL=estilos.css.map */

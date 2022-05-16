@@ -1,0 +1,16 @@
+@media (max-width: 1200px) {
+  .d-hero {
+    padding: 110px 0px;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .imagem-topico1 {
+    width: 550px;
+    height: 325px;
+  }
+  .para-topico1 {
+    font-size: 21px;
+  }
+}
+/*# sourceMappingURL=responsivo.css.map */

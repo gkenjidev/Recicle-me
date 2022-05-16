@@ -162,4 +162,57 @@ main {
   -webkit-backdrop-filter: blur(25px);
           backdrop-filter: blur(25px);
 }
+
+.ss-hero {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.reciclavel {
+  background: #37B00E;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  width: 100%;
+  height: 1035px;
+}
+
+.nao-reciclavel {
+  background: #374134;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  width: 100%;
+  height: 1035px;
+}
+
+.title1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  width: 100%;
+  padding: 50px 0px;
+  background: #15A349;
+  -webkit-backdrop-filter: blur(15px);
+          backdrop-filter: blur(15px);
+}
+
+.h2 {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  color: white;
+}
 /*# sourceMappingURL=estilos.css.map */

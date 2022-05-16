@@ -12,14 +12,8 @@ $corpreto: black;
 // Reset HTML
 @mixin ResetHtml {
     text-decoration: none;
-    box-sizing: none;
+    box-sizing: border-box;
     padding: 0;
     margin: 0;
-}
-
-// Flexbox centralizada
-@mixin FlexCenter {
-    display: flex;
-    align-items: center;
-    flex-direction: row;
+    list-style: none;
 }

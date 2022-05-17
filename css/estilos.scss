@@ -138,7 +138,6 @@ main {
 .ss-hero {
     display: flex;
     flex-direction: row;
-    align-items: center;
 
 }
 
@@ -146,14 +145,12 @@ main {
     background: $cor5;
     box-sizing: border-box;
     width: 100%;
-    height: 1035px;
 }
 
 .nao-reciclavel {
     background: #374134;
     box-sizing: border-box;
     width: 100%;
-    height: 1035px;
 }
 
 .title1 {
@@ -195,9 +192,6 @@ main {
 .mirror {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: 100px 0px;
 }
 
 .margem2 p {
@@ -207,4 +201,18 @@ main {
     font-size: 24px;
     line-height: 28px;
     color: white;
+}
+
+.margem2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 100px 0px;
+}
+
+.margem {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 100px 0px;
 }

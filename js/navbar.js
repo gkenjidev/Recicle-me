@@ -12,3 +12,7 @@ document.addEventListener("scroll", (event) => {
         
     }
 });
+
+window.scroll({
+    behavior: 'smooth'
+})

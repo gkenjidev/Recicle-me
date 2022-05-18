@@ -273,28 +273,13 @@
         line-height: 28px;
     }
 
-    .margem2 h2 {
-        display: flex;
-        justify-content: center;
-        text-align: center;
-        font-family: 'Montserrat';
-        font-style: normal;
-        font-weight: 600;
-        font-size: 24px;
-        line-height: 29px;
+    .margem h2 {
+        width: 100%;
     }
 
-    .margem2 p {
-        display: flex;
-        justify-content: center;
-        text-align: justify;
-        width: 100%px;
-        height: 84px;
-        font-family: 'Roboto';
-        font-style: normal;
-        font-weight: 300;
-        font-size: 24px;
-        line-height: 28px;
+    .margem p {
+        width: 100%;
+        height: 140px;
     }
 
     .footer-imagem {
@@ -399,5 +384,35 @@
         justify-content: center;
         align-items: center;
         text-align: center;
+    }
+}
+
+@media (max-width: 320px) {
+
+    .margem {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .margem h2 {
+        width: 100%;
+    }
+
+    .margem p {
+        width: 100%;
+    }
+
+    .s-hero {
+        padding: 60px 0px;
+    }
+
+    .margem h2 {
+        width: 100%;
+    }
+
+    .margem p {
+        width: 100%;
+        height: 160px;
     }
 }

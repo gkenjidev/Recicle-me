@@ -185,7 +185,8 @@ main {
     color: white;
 }
 
-.margem h2,.margem2 h2 {
+.margem h2,
+.margem2 h2 {
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 600;
@@ -281,3 +282,25 @@ main {
     color: white;
 }
 
+
+
+
+
+
+
+
+// SCROLL
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background-color: $cor3;
+    border-radius: 30px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: black;
+    border-radius: 30px;
+}

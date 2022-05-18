@@ -13,6 +13,21 @@ body {
     height: 100vh;
 }
 
+.nav-teste {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar-animation {
+    width: 100%;
+    padding: 20px 100px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 999;
+}
+
 .container {
     width: 100%;
     margin: 0px;
@@ -24,12 +39,6 @@ body {
 header {
     display: flex;
     justify-content: center;
-}
-
-.navbar {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
 }
 
 .menus {
@@ -171,7 +180,7 @@ main {
     color: white;
 }
 
-.margem h2, .margem2 h2{
+.margem h2,.margem2 h2 {
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 600;
@@ -216,3 +225,54 @@ main {
     justify-content: center;
     padding: 100px 0px;
 }
+
+.footer {
+    background: $cor3;
+}
+
+.salvamargem {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-imagem {
+    padding: 104px 0px;
+    padding-bottom: 69px;
+}
+
+.footer-menus {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer-li {
+    color: white;
+    padding: 14px 0px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.icones1 {
+    padding-left: 20px;
+}
+
+.direitos {
+    display: flex;
+    justify-content: center;
+}
+
+.direitos h2 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 20px;
+    color: white;
+}
+

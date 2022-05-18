@@ -30,15 +30,120 @@
     }
 
     .para-topico1 {
-        font-size: 21px;
+        font-size: 17px;
+    }
+
+    .topico1 {
+        font-size: 40px;
     }
 }
 
-@media (max-width: 991px) {}
+@media (max-width: 991px) {
+    body {
+        background: url('../imagens/991/fundo.png');
+        background-repeat: no-repeat;
+        width: 100%;
+        height: 100vh;
+    }
+
+    .titulo {
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 35px;
+        line-height: 43px;
+
+        color: #FFFFFF;
+    }
+
+    .strong {
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 35px;
+        line-height: 43px;
+
+        color: #FFFFFF;
+    }
+
+    .s-hero {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 230px 0px;
+    }
+
+    .separador {
+        width: 100%;
+        background: linear-gradient(91.58deg, rgba(54, 176, 14, 0.6) 0%, rgba(22, 163, 74, 0.6) 48.11%, rgba(14, 176, 165, 0.6) 81.03%);
+        border: 3px solid rgba(255, 255, 255, 0.14);
+        backdrop-filter: blur(25px);
+    }
+
+    .topico1 {
+        padding: 47px 0px;
+        margin: 0;
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 44px;
+
+        color: #FFFFFF;
+    }
+
+    .imagem-topico1 {   
+        padding: 50px 0px;
+        width: 584px;
+        height: 390px;
+    }
+
+    .d-hero {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .para-topico1 {
+        width: 584px;
+        height: 400px;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 24px;
+        line-height: 28px;
+        text-align: justify;
+
+        color: #000000;
+    }
+
+    .separador2 {
+        width: 100%;
+        height: 182px;
+        background: linear-gradient(94.21deg, rgba(31, 240, 108, 0.6) 20.32%, rgba(14, 176, 165, 0.6) 66.35%, rgba(15, 186, 29, 0.6) 102.66%);
+        border: 3px solid rgba(255, 255, 255, 0.15);
+        backdrop-filter: blur(25px);
+    }
+
+    .topico2 {
+
+        padding: 0px 0px;
+        margin: 0;
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 44px;
+
+        color: #FFFFFF;
+
+    }
+    .ss-hero {
+        display: flex;
+        flex-direction: column;
+    }
+}
 
 @media (max-width: 766px) {}
-
-@media (max-width: 991px) {}
 
 @media (max-width: 600px) {}
 

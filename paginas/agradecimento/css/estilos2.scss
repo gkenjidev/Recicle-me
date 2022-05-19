@@ -1,0 +1,74 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;600;700&family=Roboto:wght@300&display=swap");
+@import 'variaveis.scss';
+
+* {
+    @include ResetHtml;
+}
+
+body {
+    background: url('../../inscricao/imagens/fundo2.png');
+    background-repeat: no-repeat;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px 100px;
+    background: linear-gradient(180deg, rgba(0, 56, 5, 0.35) 0%, rgba(15, 186, 29, 0) 149%);
+    backdrop-filter: blur(13px);
+}
+
+.header-nav {
+    display: flex;
+    align-items: center;
+}
+
+.header-nav-item {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 20px;
+    color: white;
+}
+
+.header-nav-div {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 20px;
+    color: white;
+    padding: 0px 25px;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 300px 0px 0px 0px;
+}
+
+.main-glass {
+    width: 700px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: rgba(255, 255, 255, 0.2);
+    border: 2px solid rgba(255, 255, 255, 0.25);
+    backdrop-filter: blur(25px);
+    border-radius: 20px;
+}
+
+.main-glass h1 {
+    padding: 110px 0px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 49px;
+    color: white;
+}

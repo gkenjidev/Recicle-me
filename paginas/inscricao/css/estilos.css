@@ -8,7 +8,8 @@
 }
 
 body {
-  background: url("../imagens/FUNDO.png");
+  background: url("../imagens/fundo2.png");
+  background-repeat: no-repeat;
 }
 
 .header {

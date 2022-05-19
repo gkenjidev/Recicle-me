@@ -8,27 +8,40 @@
 
     <title>Recicle-me | O seu portal da reciclagem</title>
 
-    <link rel="stylesheet" href="./css/estilo.css">
+    <link rel="stylesheet" href="css/estilos.css">
     <link rel="icon" href="../../imagens/logo/logo-site.svg">
 </head>
 
 <body>
     <div class="fundo-imagem">
         <header class="header">
-                <img class="header-logo" src="../../imagens/logo/logo-site.svg">
-                <nav class="header-nav">
-                    <a class="header-nav-item">HOME</a>
-                    <div class="header-nav-div"></div>
-                    <a class="header-nav-item">SOBRE</a>
-                    <div class="header-nav-div"></div>
-                    <a class="header-nav-item">RECICLAVEL</a>
-                    <div class="header-nav-div"></div>
-                    <a class="header-nav-item">INSCRIÇÃO</a>
-                </nav>
+            <img class="header-logo" src="../../imagens/logo/logo-site.svg">
+            <nav class="header-nav">
+                <a class="header-nav-item" href="../../index.html">HOME</a>
+                <div class="header-nav-div">|</div>
+                <a class="header-nav-item" href="../../index.html#sobre">SOBRE</a>
+                <div class="header-nav-div">|</div>
+                <a class="header-nav-item" href="../../index.html#reciclavel">RECICLAVEL</a>
+                <div class="header-nav-div">|</div>
+                <a class="header-nav-item" href="inscricao.html">INSCRIÇÃO</a>
+            </nav>
         </header>
         <main class="main">
             <div class="main-glass">
-                <h1>INSCRIÇÃO</h1>
+                <form autocomplete="off" class="formu" action="https://formsubmit.co/alt.y7-60stgjs@yopmail.com" method="post">
+                    <h1>INSCREVA-SE</h1>
+                    <div class="formu1">
+                        <input type="text" name="name" placeholder="NOME" class="nameform" autocomplete="false" required><br>
+                        <input type="email" name="email" placeholder="E-MAIL" class="nameform" autocomplete="false" required><br>
+                        <input type="tel" name="tel" placeholder="CELULAR" class="nameform" autocomplete="false" required>
+                        </div>
+
+                    <div class="botoes">
+                        <button type="submit" class="buttao"><h2>ENVIAR</h2></button>
+                    </div>
+                    <input type="hidden" name="_captcha" value="false">
+                    <input type="hidden" name="_next" value="https://joaooow.github.io/Recicle-me">
+                </form>
             </div>
         </main>
     </div>

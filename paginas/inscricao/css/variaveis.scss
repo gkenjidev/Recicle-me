@@ -10,3 +10,8 @@
     flex-direction: row;
     align-items: center;
 }
+
+@mixin decoracao {
+    text-decoration: none;
+    color: white;
+}

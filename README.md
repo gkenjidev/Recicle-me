@@ -14,3 +14,11 @@ Este site foi desenvolvido para a APS da faculdade UNIP (1° semestre)
 <li> João Oliveira (desenvolvimento web)</li>
 <li> Guilherme Kenji (documentação)</li>
 <li> Nathalia Romano (documentação)</li>
+
+## Acesse:
+
+<li> https://joaooow.github.io/Recicle-me/ </li>
+
+## Obs:
+
+<li> O site acima pode ter problemas ao enviar o formulario de inscrição pois o sistema utilizado precisa de verificação </li>

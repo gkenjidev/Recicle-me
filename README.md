@@ -15,7 +15,7 @@ Este site foi desenvolvido para a APS da faculdade UNIP (1° semestre)
 <li> Guilherme Kenji (documentação)</li>
 <li> Nathalia Romano (documentação)</li>
 
-## Acesse:
+## Acesse o site:
 
 <li> https://joaooow.github.io/Recicle-me/ </li>
 

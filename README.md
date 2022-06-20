@@ -12,7 +12,7 @@ Este site foi desenvolvido para a APS da faculdade UNIP (1° semestre)
 ## Desenvolvedores
 
 <li> João Oliveira (desenvolvimento web)</li>
-<li> Guilherme Kenji (documentação)</li>
+<li> Guilherme Kenji (documentação/desenvolvimento)</li>
 <li> Nathalia Romano (documentação)</li>
 
 ## Acesse o site:
